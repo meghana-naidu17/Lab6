@@ -1,11 +1,7 @@
-import React from 'react'
-import './App.css'
-const App = () => {
-  return (
-    <div>
-      <h1>Lab 6: React Router</h1>
-    </div>
-  )
+import ProductsPage from "./pages/ProductsPage";
+import "./App.css";
+function App() {
+  return <ProductsPage />;
 }
 
-export default App
+export default App;
